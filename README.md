@@ -67,10 +67,10 @@ $ sudo ./run.sh --proxy <IP>:<PORT> --token anxxxxxxx:dckr_pat_xxxxxxxxxxxxxxxxx
 ---
 
 > **Tips:** If the installation is interrupted for any reason, you can rerun it.
-> Alternatively, remove the ./pic/images before rerunning using:
+> Alternatively, remove the before rerunning using:
 
 ```bash
-# Remove Docker ./pic/images (if needed)
+# Remove Docker (if needed)
 docker rm -f vancat-bloodhound-1 vancat-app-db-1 vancat-graph-db-1 bloodhound
 docker rmi -f specterops/bloodhound:latest postgres:16 neo4j:4.4.42
 ```
